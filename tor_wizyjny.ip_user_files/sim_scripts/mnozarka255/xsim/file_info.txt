@@ -1,0 +1,2 @@
+mnozarka255.vhd,vhdl,xil_defaultlib,../../../../tor_wizyjny.gen/sources_1/ip/mnozarka255/sim/mnozarka255.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

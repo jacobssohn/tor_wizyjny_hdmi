@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/7698" --include "../../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/ee60/hdl" --include "C:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"tb_rgb2ycbcr_func_synth.v" \
+"../../../../../tor_wizyjny.srcs/sources_1/new/delay_line.v" \
+"../../../../../tor_wizyjny.srcs/sources_1/new/rgb2ycbcr.v" \
+"../../../../../tor_wizyjny.srcs/sim_1/new/tb_rgb2ycbcr.v" \
+
+# Do not sort compile order
+nosort

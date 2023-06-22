@@ -1,0 +1,2 @@
+ila_refclk.v,verilog,xil_defaultlib,../../../../dvi2rgb_v2_0_project.gen/sources_1/ip/ila_refclk/sim/ila_refclk.v,incdir="../../../../dvi2rgb_v2_0_project.gen/sources_1/ip/ila_refclk/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

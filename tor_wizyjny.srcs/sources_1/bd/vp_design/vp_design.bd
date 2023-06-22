@@ -1,0 +1,174 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9CF2BEB23310D95D",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../tor_wizyjny.gen/sources_1/bd/vp_design",
+      "name": "vp_design",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "vp_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "de_in": {
+        "direction": "I"
+      },
+      "h_sync_in": {
+        "direction": "I"
+      },
+      "v_sync_in": {
+        "direction": "I"
+      },
+      "pixel_in": {
+        "direction": "I",
+        "left": "23",
+        "right": "0"
+      },
+      "de_out": {
+        "direction": "O"
+      },
+      "h_sync_out": {
+        "direction": "O"
+      },
+      "v_sync_out": {
+        "direction": "O"
+      },
+      "pixel_out": {
+        "direction": "O",
+        "left": "23",
+        "right": "0"
+      },
+      "sw": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "vp_0": {
+        "vlnv": "xilinx.com:module_ref:vp:1.0",
+        "xci_name": "vp_design_vp_0_0",
+        "xci_path": "ip\\vp_design_vp_0_0\\vp_design_vp_0_0.xci",
+        "inst_hier_path": "vp_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vp",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "de_in": {
+            "direction": "I"
+          },
+          "h_sync_in": {
+            "direction": "I"
+          },
+          "v_sync_in": {
+            "direction": "I"
+          },
+          "pixel_in": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "sw": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "de_out": {
+            "direction": "O"
+          },
+          "h_sync_out": {
+            "direction": "O"
+          },
+          "v_sync_out": {
+            "direction": "O"
+          },
+          "pixel_out": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "vp_0/clk"
+        ]
+      },
+      "de_in_1": {
+        "ports": [
+          "de_in",
+          "vp_0/de_in"
+        ]
+      },
+      "h_sync_in_1": {
+        "ports": [
+          "h_sync_in",
+          "vp_0/h_sync_in"
+        ]
+      },
+      "pixel_in_1": {
+        "ports": [
+          "pixel_in",
+          "vp_0/pixel_in"
+        ]
+      },
+      "sw_1": {
+        "ports": [
+          "sw",
+          "vp_0/sw"
+        ]
+      },
+      "v_sync_in_1": {
+        "ports": [
+          "v_sync_in",
+          "vp_0/v_sync_in"
+        ]
+      },
+      "vp_0_de_out": {
+        "ports": [
+          "vp_0/de_out",
+          "de_out"
+        ]
+      },
+      "vp_0_h_sync_out": {
+        "ports": [
+          "vp_0/h_sync_out",
+          "h_sync_out"
+        ]
+      },
+      "vp_0_pixel_out": {
+        "ports": [
+          "vp_0/pixel_out",
+          "pixel_out"
+        ]
+      },
+      "vp_0_v_sync_out": {
+        "ports": [
+          "vp_0/v_sync_out",
+          "v_sync_out"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tor_wizyjny.gen/sources_1/ip/mnozarka255/sim/mnozarka255.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/DivC/sim/DivC.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/mult_gen_1/sim/mult_gen_1.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/div_S/sim/div_S.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/dzielnik_na_360/sim/dzielnik_na_360.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/sum_0_120_240_360/sim/sum_0_120_240_360.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/color_difference/sim/color_difference.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/dzielnik_na_255/sim/dzielnik_na_255.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/adder/sim/adder.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/ip/multiply/sim/multiply.vhd" \
+
+# Do not sort compile order
+nosort

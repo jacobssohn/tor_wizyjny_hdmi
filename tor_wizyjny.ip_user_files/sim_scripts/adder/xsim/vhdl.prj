@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../tor_wizyjny.gen/sources_1/ip/adder/sim/adder.vhd" \
+
+nosort

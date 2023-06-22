@@ -1,0 +1,23 @@
+vhdl xil_defaultlib  \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/DVI_Constants.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/ChannelBond.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/SyncAsync.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/GlitchFilter.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/TWI_SlaveCtl.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/EEPROM_8b.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/InputSERDES.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/PhaseAlign.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/ResyncToBUFG.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/SyncAsyncReset.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/SyncBase.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/TMDS_Clocking.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/TMDS_Decoder.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/cb55/src/dvi2rgb.vhd" \
+"../../../bd/design_1/ip/design_1_dvi2rgb_0_2/sim/design_1_dvi2rgb_0_2.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/b5d9/src/OutputSERDES.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/b5d9/src/TMDS_Encoder.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/b5d9/src/rgb2dvi.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/design_1/ipshared/b5d9/src/ClockGen.vhd" \
+"../../../bd/design_1/ip/design_1_rgb2dvi_0_0/sim/design_1_rgb2dvi_0_0.vhd" \
+
+nosort

@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../tor_wizyjny.gen/sources_1/ip/divider_32_20_0/src/divider_32_20.v" \
+"../../../../tor_wizyjny.gen/sources_1/ip/divider_32_20_0/sim/divider_32_20_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

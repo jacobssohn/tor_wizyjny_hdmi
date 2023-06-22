@@ -1,0 +1,3 @@
+vp_design_vp_0_0.v,verilog,xil_defaultlib,../../../bd/vp_design/ip/vp_design_vp_0_0/sim/vp_design_vp_0_0.v,
+vp_design.v,verilog,xil_defaultlib,../../../bd/vp_design/sim/vp_design.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
